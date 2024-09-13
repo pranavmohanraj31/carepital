@@ -1,0 +1,1186 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #228B22;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 0;
+  margin: 0;
+}
+
+.logo img {
+  max-width: 250px;
+  height: auto;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 50px;
+  margin: 10px;
+}
+
+nav ul li a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  background-color: #228B22;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #055023;
+}
+
+/* Main section styling */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; 
+}
+
+.welcome {
+  width: 100%;
+  margin-top: 0.5cm;
+  position: relative;
+}
+
+.welcome img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.welcome-content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  justify-content: space-between;
+}
+
+.welcome-text {
+  color: #fff;
+  padding: 45px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  max-width: 800px;
+  letter-spacing:3.5px;
+  width: 750px;
+  margin-left: 2cm;
+  
+}
+
+.welcome-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.welcome-text p {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 21px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.welcome-image img {
+  max-width: 1000px;
+  height: auto;
+  border-radius: 10px; 
+  margin-left: 6cm;
+  height: 500px;
+  width: 700px;
+}
+/*Homepage Sections Starts Here*/
+
+/* section1 home page*/
+.sec1{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec1-img {
+  height: 383px;
+  margin-right: 20px; 
+}
+
+.sec1-txt {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  padding: 2px; 
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  max-width: 500px; 
+  margin-left: 5cm;
+  padding-right: 0.5cm;
+  padding-left: 1cm;
+}
+
+.sec1-h1 {
+  margin-bottom: 100px;
+  font-size: 2rem;
+}
+
+.sec1-p1 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* section2 home page*/
+
+.sec2{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec2-img {
+  height: 383px;
+  margin-right: 20px; 
+}
+
+.sec2-txt {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  padding: 2px; 
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  max-width: 500px; 
+  margin-left: 5cm;
+  padding-right: 0.5cm;
+  padding-left: 1cm;
+}
+
+.sec2-h1 {
+  margin-bottom: 100px; 
+  font-size: 2rem; 
+}
+
+.sec2-p1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.sec2{
+  margin-top: -5cm;
+}
+
+/* section 3 home page */
+
+.sec3{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec3-img {
+  height: 400px;
+  margin-right: 20px; 
+}
+
+.sec3-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding: 2px; 
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  max-width: 500px; 
+  margin-left: 5cm;
+  padding-right: 0.5cm;
+  padding-left: 1cm;
+  
+}
+
+.sec3-h1 {
+  margin-bottom: 100px; 
+  font-size: 2rem;
+}
+
+.sec3-p1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.sec3{
+  margin-top: -5cm;
+}
+
+
+/* footer css */
+footer{
+  background-color: #228B22;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* About us Css, starts here */
+
+.about-body {
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 22cm; 
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+}
+
+.about-h1 {
+  text-align: center;
+  margin-top: 4cm;
+}
+
+.about-h1 h1 {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  padding: 10px; 
+  border-radius: 5px; 
+  display: inline-block; 
+}
+
+.branches{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 26cm;
+}
+
+
+
+.branch1-txt {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  max-width: 430px;
+  margin-top: 3cm;
+  margin-right: 1.5cm;
+  height: 5cm;
+}
+
+.branch1-txt h2 {
+  font-size: 29px;
+  margin-bottom: 10px; 
+  padding: 0;  
+}
+
+.branch1-txt p {
+  font-size: 20px;
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Branch 1 map css */
+
+
+.branch1-map{
+  margin-top: 3cm;
+}
+
+/* Branch 2 css */
+
+.branch2{
+  margin-right: 5cm;
+  position: relative;
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 10.5cm;
+  padding-right: 10.5cm;
+  
+}
+
+.branch2-txt {
+  display: flex;
+  flex-direction: column;  
+  align-items: flex-start;  
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  max-width: 430px;
+  margin-top: 3cm;
+  margin-left: 8cm;
+  height: 5cm;
+}
+
+.branch2-txt h2 {
+  font-size: 29px;
+  margin-bottom: 10px; 
+  padding: 0;  
+}
+
+.branch2-txt p {
+  font-size: 20px;
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Branch 2 map css */
+
+
+.branch2-map{
+  margin-top: 3cm;
+  margin-left: 6cm;
+  
+}
+
+/* Branch 3 css */
+.branch3 {
+  position: relative;
+  background-image: url(../Images/bg3.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 10.5cm; 
+  padding-right: 27.5cm;
+  min-height: 1000px; 
+}
+
+.branch3-txt {
+  position: absolute;
+  display: flex;
+  flex-direction: column;  
+  align-items: flex-start; 
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  max-width: 430px;
+  height: 5cm;
+  margin-left: 1cm;
+  margin-top: 34cm;
+}
+
+.branch3-txt h2 {
+  font-size: 29px;
+  margin-bottom: 10px;  
+ 
+}
+
+.branch3-txt p {
+  font-size: 20px;
+ 
+}
+
+/* Branch 3 map css */
+.branch3-map{
+  margin-top: 2158px;
+  margin-left: 38px;
+  position: absolute;
+}
+
+
+
+/* Services page css starts here */
+
+.services-body{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.services-h1{
+  text-align: center; 
+  margin-top: 4cm;
+}
+
+.services-h1 h1{
+  background: rgba(255, 255, 255, 0.75);
+  color: #000000; 
+  border-radius: 5px;
+  padding: 10px; 
+  display: inline-block; 
+}
+
+.mainpara{
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  border-radius: 10px;
+  padding: 10px; 
+  display: inline-block;
+  font-size: x-large;
+  width: 1000px;
+  align-items: left;
+  display: flex;
+  justify-self: center;
+  margin-top: 50px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+.services-content {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 117px;
+  padding-bottom: 107px;
+}
+
+.service1, .service2, .service3 {
+  width: 350px; 
+  margin: 10px; 
+  text-align: center;
+}
+
+.service1 img, .service2 img, .service3 img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.service1-name, .service2-name, .service3-name{
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  padding: 20px;
+  font-size: 25px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.consultingpage-link{
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  border-radius: 10px;
+  padding: 10px; 
+  display: inline-block;
+  font-size: x-large;
+  width: 730px;
+  align-items: left;
+  display: flex;
+  justify-self: center;
+  margin-top: 50px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+.registeration-link button {
+  background-color: #166649; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 16cm;
+  margin-bottom: 3cm;
+}
+
+.registeration-link button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+
+/* doctors page css starts here */
+.doctors-section{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;    
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.doctors-h1{
+  text-align: center;
+  margin-top: 4cm;
+  position: absolute;
+  margin-bottom: 18cm;
+}
+
+.doctors-h1 h1{
+  background: rgba(255, 255, 255, 0.75);
+  color: #000000; 
+  border-radius: 5px;
+  padding: 13px; 
+  display: inline-block; 
+  font-size: 25px;
+}
+
+.profiles{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 5cm;
+}
+
+.doctor-profile1, .doctor-profile2, .doctor-profile3 {
+  width: 350px; 
+  margin: 10px; 
+  text-align: center;
+}
+.doctor-profile1 img, .doctor-profile2 img, .doctor-profile3 img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.profile1-txt, .profile2-txt, .profile3-txt{
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+
+/* Consulting page css starts here  */
+
+.consulting-body{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;    
+  background-attachment: fixed;
+  height: 100%;
+}
+
+
+.reservation-form{
+  position: absolute;
+  width:80%;
+  margin:0 auto;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  padding:10px;
+  box-shadow:0px 0px 15px rgba(0,0,0,0.1);
+  border-radius:8px;
+  margin-top:4cm;
+  margin-left:250px;
+  margin-bottom:50px;
+  max-width: 900px;
+}
+
+
+.reservation-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+
+input,select,textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  background-color: #166649; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 20.5cm;
+
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+/* Pharmacy page css starts here */
+
+.pharmacy-body{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;    
+  background-attachment: fixed;
+  height: 100%;
+}
+.pharmacy-form {
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  padding: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 4cm;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  max-width: 900px;
+}
+
+.pharmacy-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.pharmacy-form input,
+.pharmacy-form select,
+.pharmacy-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.pharmacy-form button {
+  background-color: #166649;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 20.5cm;
+}
+
+.pharmacy-form button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+/* Resources page css starts here */
+
+.resources-body{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;    
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.resources-h1{
+  text-align: center; 
+  margin-top: 4cm;
+}
+
+.resources-h1 h1{
+  background: rgba(255, 255, 255, 0.75);
+  color: #000000; 
+  border-radius: 5px;
+  padding: 10px; 
+  display: inline-block; 
+}
+
+.content1{
+  display: flex;
+  font-size: larger;
+  flex-direction: column; 
+  align-items: flex-start;  
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  margin-top: 2cm;
+  line-height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 950px;
+}
+
+.content2{  
+  display: flex;
+  font-size: larger;
+  flex-direction: column;   
+  align-items: flex-start;  
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  line-height: 30px;
+  width: 950px;
+}
+
+.content3{
+  display: flex;
+  font-size: larger;
+  flex-direction: column;  
+  align-items: flex-start;  
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  line-height: 30px;
+  width: 950px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Registeration page css starts here */
+
+.registeration-body{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;    
+  background-attachment: fixed;
+  height: 100%;
+}
+.registeration-form {
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  padding: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 4cm;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  max-width: 900px;
+  padding-top: 2cm;
+}
+
+.registeration-form h2 {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 20cm;
+  color: #000000;
+}
+
+.registeration-form input,
+.registeration-form select,
+.registeration-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.registeration-form button {
+  background-color: #166649; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 20.5cm;
+}
+
+.registeration-form button:hover {
+  background-color: #0a0000;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile css starts here */
+
+.menu-icon,
+input[type="checkbox"] {
+    display: none;
+}
+/* Mobile Version CSS */
+
+@media only screen and (max-width: 600px) {
+body {
+  max-width: 600px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  position: absolute;
+}
+
+header {
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 600px;
+  max-width: 600px;
+}
+
+.logo img {
+  max-width: 200px;
+  
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000000;
+  background-color: #228B22;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 8cm;
+  position: absolute;
+}
+
+nav ul {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  background-color: #228B22;
+  
+}
+
+nav ul li {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 22px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+  text-decoration: none;
+  background-color: #228B22;
+  margin-right: 5cm;
+}
+
+nav ul li a:hover {
+  background-color: #055023;
+}
+
+#menu-toggle:checked + .menu-icon + nav ul {
+  display: flex;
+}
+
+.welcome-content {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5cm;
+}
+
+.welcome-text {
+  width: 100%;
+  margin: -9cm;
+  padding: 10px;
+  
+}
+
+.welcome-image img {
+  width: 340px;
+  height: auto;
+  margin-top: 12cm;
+  margin-right: 6cm;
+}
+
+.homesections{
+  flex-direction: column;
+  position:absolute;
+  align-items: center;
+}
+
+.sec1, .sec2, .sec3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.sec1-txt, .sec2-txt, .sec3-txt {
+  max-width: 100%;
+  padding: 30px;
+  text-align: left; 
+  margin:0 auto;
+}
+
+.sec1-img, .sec2-img, .sec3-img {
+  width: 100%; 
+  height: auto;
+  margin-bottom: 20px; 
+  margin-top: -.5cm;
+  margin-left: 0.6cm;
+}
+.sec2, .sec3{
+  margin-top: 0cm;
+}
+
+/* about us moobile starts here */
+/* branch1 */
+
+.branch1{
+  margin-bottom: 9cm;
+}
+
+.branch1-txt{
+  max-width: 330px;
+  padding-bottom: 24px;
+  margin-right: 3cm;
+}
+
+.branch1-map{
+  width: 100%;
+  height: 300px;
+}
+
+/* branch 2 */
+
+.branch2-txt{
+  max-width: 375px;
+  padding-bottom: 24px;
+  margin-right: 1cm;
+  margin-bottom: 2cm;
+}
+
+.branch2-map{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 5cm;
+}
+
+.branch3-txt{
+  max-width: 375px;
+  margin-right: 1cm;
+  margin-top: 40cm;
+}
+
+.branch3-map{
+  margin-top: 65cm;
+}
+
+/* services mobile css */
+.mainpara{
+  width: 350px;
+}
+
+.consultingpage-link{
+  width: 350px;
+  
+  padding: 10px;
+}
+
+.services-content {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 117px;
+  padding-bottom: 107px;
+  flex-direction: column;
+}
+
+.services-body{
+  max-width: 430px;
+}
+
+.service1, .service2, .service3 {
+  margin-left: 1cm;
+
+}
+
+.registeration-link button{
+  position: relative;
+  margin-left: 1cm;
+}
+
+/* Doctors Page css starts here */
+
+.profiles{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 5cm;
+  margin-right: 2.9cm;
+  
+  
+}
+.doctors-section{
+  background-image: url(../Images/bg3.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;    
+  background-attachment: fixed;
+  height: 100%;
+  width: 500px;
+}
+
+.doctors-body{
+  max-width: 430px;
+}
+
+.doctors-h1 h1{
+margin-bottom: 30cm;
+margin-right: 2cm;
+
+
+}
+
+/* Consultation Miobile css */
+
+.reservation-form {
+  width: 486px;
+  padding: 100px;
+  margin: 40px auto;
+  box-sizing: border-box;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+  font-size: 14px;
+  width: 300px;
+}
+
+.reservation-form button {
+  width: 100%;
+   padding:12px;
+   margin-left: 2%;
+}
+
+/* Pharmacy mobile css  */
+
+.pharmacy-form {
+  width: 486px;
+  padding: 100px;
+  margin: 40px auto;
+  box-sizing: border-box;
+}
+
+.pharmacy-form input,
+.pharmacy-form select,
+.pharmacy-form textarea {
+  font-size: 14px;
+  width: 300px;
+}
+
+.pharmacy-form button {
+  width: 100%;
+   padding:12px;
+   margin-left: 2%;
+}
+
+.resources-h1 h1{
+  margin-right: 150px;
+}
+
+.content{
+  position: relative;
+  width: 600px;
+}
+
+/* registeration page mobile css */
+
+.registeration-form {
+  width: 486px;
+  padding: 100px;
+  margin: 40px auto;
+  box-sizing: border-box;
+}
+
+.registeration-form input,
+.registeration-form select,
+.registeration-form textarea {
+  font-size: 14px;
+  width: 300px;
+}
+
+.registeration-form button {
+  width: 100%;
+   padding:12px;
+   margin-left: 0%;
+   margin-top: 20px;
+}
+
+
+footer{
+  width: 600px;
+}
+
+.content{
+  width: 430px;
+}
+
+
+
+}
+
+

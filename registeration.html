@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration - Carepital</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Favicons/android-chrome-72x72.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicons/favicon-16x16.png">
+    <link rel="manifest" href="/Favicons/site.webmanifest">
+    <link rel="mask-icon" href="/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body class="registeration-body">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./Images/logo.png" alt="Hospital Logo"></a>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776; Menu</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="consultingservices.html">Consulting Reservation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="registeration-form">
+            <h2>Patients Registration Page</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name" required="">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Email" required="">
+                <label for="address">Address:</label>
+                <input type="text" id="address" placeholder="Address" required="">
+                <label for="contact">Contact No:</label>
+                <input type="text" id="contact" placeholder="Contact" required="">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required="">
+                <label>Gender:</label>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                    <input type="radio" id="prefer" name="gender" value="prefer">
+                    <label for="prefer">Prefer not to say</label>
+                </div>
+            <button type="submit" id="submit-btn">Submit</button>
+            </form>
+        </section>    
+    </main>
+
+
+
+
+</body>
+</html>
+
+
+
