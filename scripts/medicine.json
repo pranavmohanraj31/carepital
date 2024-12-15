@@ -1,0 +1,39 @@
+[
+    
+    { "name": "Paracetamol", "price": 5, "category": "Analgesics" },
+    { "name": "Aspirin", "price": 7, "category": "Analgesics" },
+    { "name": "Ibuprofen", "price": 8, "category": "Analgesics" },
+    { "name": "Codeine", "price": 12, "category": "Analgesics" },
+    { "name": "Naproxen", "price": 10, "category": "Analgesics" },
+    { "name": "Diclofenac", "price": 9, "category": "Analgesics" },
+
+    
+    { "name": "Amoxicillin", "price": 10, "category": "Antibiotics" },
+    { "name": "Penicillin", "price": 12, "category": "Antibiotics" },
+    { "name": "Ciprofloxacin", "price": 15, "category": "Antibiotics" },
+    { "name": "Azithromycin", "price": 18, "category": "Antibiotics" },
+    { "name": "Doxycycline", "price": 20, "category": "Antibiotics" },
+    { "name": "Erythromycin", "price": 22, "category": "Antibiotics" },
+
+    
+    { "name": "Fluoxetine", "price": 15, "category": "Antidepressants" },
+    { "name": "Sertraline", "price": 18, "category": "Antidepressants" },
+    { "name": "Paroxetine", "price": 17, "category": "Antidepressants" },
+    { "name": "Amitriptyline", "price": 20, "category": "Antidepressants" },
+    { "name": "Citalopram", "price": 16, "category": "Antidepressants" },
+    { "name": "Escitalopram", "price": 19, "category": "Antidepressants" },
+
+    
+    { "name": "Cetirizine", "price": 10, "category": "Antihistamines" },
+    { "name": "Loratadine", "price": 12, "category": "Antihistamines" },
+    { "name": "Diphenhydramine", "price": 15, "category": "Antihistamines" },
+    { "name": "Fexofenadine", "price": 18, "category": "Antihistamines" },
+
+    
+    { "name": "Amlodipine", "price": 12, "category": "Antihypertensives" },
+    { "name": "Lisinopril", "price": 15, "category": "Antihypertensives" },
+    { "name": "Losartan", "price": 18, "category": "Antihypertensives" },
+    { "name": "Metoprolol", "price": 20, "category": "Antihypertensives" },
+    { "name": "Atenolol", "price": 10, "category": "Antihypertensives" },
+    { "name": "Ramipril", "price": 14, "category": "Antihypertensives" }
+]
