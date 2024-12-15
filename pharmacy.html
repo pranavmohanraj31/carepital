@@ -15,13 +15,16 @@
     <script src="scripts/main.js" defer></script>
 </head>
 <body class="pharmacy-body">
-    <header>
+    <!-- Header Section -->
+    <header role="banner">
         <div class="logo">
-            <a href="index.html"><img src="./Images/logo.png" alt="Hospital Logo"></a>
+            <a href="index.html" aria-label="Go to Homepage">
+                <img src="./Images/logo.png" alt="Carepital Hospital Logo">
+            </a>
         </div>
         <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="menu-icon">&#9776; Menu</label>
-        <nav>
+        <label for="menu-toggle" class="menu-icon" aria-label="Open Menu">&#9776; Menu</label>
+        <nav role="navigation" aria-label="Main Navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
@@ -34,47 +37,51 @@
         </nav>
     </header>
     
-    <h1>Medicine Order</h1>
+    <!-- Main Content -->
+    <main>
+        <h1>Medicine Order</h1>
 
-    <!-- Sections for medicines -->
-    <section id="analgesics">
-        <h2>Analgesics</h2>
-    </section>
+        <!-- Sections for medicines -->
+        <section id="analgesics" aria-labelledby="analgesics-title">
+            <h2 id="analgesics-title">Analgesics</h2>
+        </section>
 
-    <section id="antibiotics">
-        <h2>Antibiotics</h2>
-    </section>
+        <section id="antibiotics" aria-labelledby="antibiotics-title">
+            <h2 id="antibiotics-title">Antibiotics</h2>
+        </section>
 
-    <section id="antidepressants">
-        <h2>Antidepressants</h2>
-    </section>
+        <section id="antidepressants" aria-labelledby="antidepressants-title">
+            <h2 id="antidepressants-title">Antidepressants</h2>
+        </section>
 
-    <section id="antihistamines">
-        <h2>Antihistamines</h2>
-    </section>
+        <section id="antihistamines" aria-labelledby="antihistamines-title">
+            <h2 id="antihistamines-title">Antihistamines</h2>
+        </section>
 
-    <section id="antihypertensives">
-        <h2>Antihypertensives</h2>
-    </section>
+        <section id="antihypertensives" aria-labelledby="antihypertensives-title">
+            <h2 id="antihypertensives-title">Antihypertensives</h2>
+        </section>
 
-    <!-- Cart Section -->
-    <section id="cart">
-        <h2>Your Cart</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Item</th> 
-                    <th>Quantity</th> 
-                    <th>Price</th> 
-                    <th>Total</th> 
-                </tr>
-            </thead>
-            <tbody id="cart-items"></tbody>
-        </table>
-        <p id="total-price">Total Price: $0</p> 
-        <button id="save-favourites">Save as Favourite</button> 
-        <button id="apply-favourites">Apply Favourite</button> 
-        <button id="buy-now">Buy Now</button> 
-    </section>
+        <!-- Cart Section -->
+        <section id="cart" aria-labelledby="cart-title">
+            <h2 id="cart-title">Your Cart</h2>
+            <table aria-describedby="cart-table-description">
+                <caption id="cart-table-description">List of selected medicines and their prices</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Item</th> 
+                        <th scope="col">Quantity</th> 
+                        <th scope="col">Price</th> 
+                        <th scope="col">Total</th> 
+                    </tr>
+                </thead>
+                <tbody id="cart-items"></tbody>
+            </table>
+            <p id="total-price">Total Price: $0</p> 
+            <button id="save-favourites" aria-label="Save your cart as favourite">Save as Favourite</button> 
+            <button id="apply-favourites" aria-label="Apply your saved favourite cart">Apply Favourite</button> 
+            <button id="buy-now" aria-label="Proceed to checkout">Buy Now</button> 
+        </section>
+    </main>
 </body>
 </html>
