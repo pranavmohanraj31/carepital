@@ -184,6 +184,56 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 768px) {
+    #menu-toggle {
+        display: none;
+      }
+      
+      .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #000000;
+        background-color: #034d1a;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 8cm;
+        position: absolute;
+      }
+      
+      nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        background-color: #0a5c2b;
+        
+      }
+      
+      nav ul li {
+        margin: 5px 0;
+        text-align: center;
+        font-size: 22px;
+      }
+      
+      nav ul li a {
+        display: block;
+        padding: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        background-color: #0a5c2b;
+        margin-right: 5cm;
+      }
+      
+      nav ul li a:hover {
+        background-color: #034d1a;
+      }
+      
+      #menu-toggle:checked + .menu-icon + nav ul {
+        display: flex;
+      }
+    
     nav ul {
         flex-direction: column;
         text-align: center;
