@@ -30,19 +30,15 @@ document.addEventListener("DOMContentLoaded", () => {
 // Fetch medicines dynamically from medicine.json
 async function fetchMedicines() {
     try {
-        // Corrected the path to use forward slashes
-        const response = await fetch("scripts/medicine.json");
+        const response = await fetch("scripts/medicine.json"); // Correct path
         console.log("Response Status:", response.status);
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        // Parse the JSON data
         const medicines = await response.json();
         console.log("Fetched Medicines:", medicines); // Debugging: Log the medicines
-
-        // Populate the medicines into the relevant sections
         populateMedicines(medicines);
     } catch (error) {
         console.error("Error fetching medicines:", error);
@@ -55,9 +51,11 @@ function populateMedicines(medicines) {
         if (sections[medicine.category]) {
             const itemDiv = document.createElement("div");
             itemDiv.classList.add("item");
+
+            const inputId = medicine.name.replace(/\s+/g, '-').toLowerCase(); // Generate a unique ID
             itemDiv.innerHTML = `
-                <label>${medicine.name}</label>
-                <input type="number" min="0" class="quantity" id="${medicine.name.replace(" ", "_")}">
+                <label for="${inputId}">${medicine.name}</label>
+                <input type="number" min="0" class="quantity" id="${inputId}" name="${inputId}">
                 <button class="add-to-cart" data-name="${medicine.name}" data-price="${medicine.price}">Add to Cart</button>
             `;
             sections[medicine.category].appendChild(itemDiv);
